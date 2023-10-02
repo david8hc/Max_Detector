@@ -1,0 +1,416 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'max_det'" level="0">
+<item name = "Date">Fri Sep 22 10:47:29 2023
+</item>
+<item name = "Version">2017.4 (Build 2086221 on Fri Dec 15 21:13:33 MST 2017)</item>
+<item name = "Project">Max_Det</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z045ffg900-2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.18, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">2, 44, 2, 44, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">36, 36, 3, -, -, 12, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 1091</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">0, -, 36, 40</column>
+<column name="Memory">2, -, 0, 0</column>
+<column name="Multiplexer">-, -, -, 835</column>
+<column name="Register">-, -, 2063, -</column>
+<specialColumn name="Available">1090, 900, 437200, 218600</specialColumn>
+<specialColumn name="Utilization (%)">~0, 0, ~0, ~0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="max_det_AXILiteS_s_axi_U">max_det_AXILiteS_s_axi, 0, 0, 36, 40</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="peaks_V_U">max_det_peaks_V, 2, 0, 0, 12, 26, 1, 312</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_fu_897_p2">+, 0, 0, 13, 4, 1</column>
+<column name="tmp_6_fu_879_p2">+, 0, 0, 39, 1, 32</column>
+<column name="vsum_i_1_V_fu_615_p2">-, 0, 0, 33, 1, 26</column>
+<column name="vsum_i_2_V_fu_683_p2">-, 0, 0, 33, 1, 26</column>
+<column name="vsum_i_3_V_fu_749_p2">-, 0, 0, 33, 1, 26</column>
+<column name="vsum_i_4_V_fu_815_p2">-, 0, 0, 33, 1, 26</column>
+<column name="out_peaks_V_1_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="out_peaks_V_1_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_1_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_1_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_2_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_2_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_3_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_3_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_4_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vbt_4_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_1_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_1_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_2_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_2_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_3_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_3_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_4_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vlr_4_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_1_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_1_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_2_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_2_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_3_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_3_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_4_V_0_load_A">and, 0, 0, 8, 1, 1</column>
+<column name="vsum_4_V_0_load_B">and, 0, 0, 8, 1, 1</column>
+<column name="exitcond_fu_891_p2">icmp, 0, 0, 9, 4, 4</column>
+<column name="out_peaks_V_1_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="tmp_1_fu_767_p2">icmp, 0, 0, 18, 26, 26</column>
+<column name="tmp_2_fu_809_p2">icmp, 0, 0, 18, 26, 1</column>
+<column name="tmp_3_fu_833_p2">icmp, 0, 0, 18, 26, 26</column>
+<column name="tmp_4_fu_633_p2">icmp, 0, 0, 18, 26, 26</column>
+<column name="tmp_5_fu_677_p2">icmp, 0, 0, 18, 26, 1</column>
+<column name="tmp_7_fu_885_p2">icmp, 0, 0, 18, 32, 15</column>
+<column name="tmp_9_fu_701_p2">icmp, 0, 0, 18, 26, 26</column>
+<column name="tmp_fu_609_p2">icmp, 0, 0, 18, 26, 1</column>
+<column name="tmp_s_fu_743_p2">icmp, 0, 0, 18, 26, 1</column>
+<column name="vbt_1_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vbt_2_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vbt_3_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vbt_4_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vlr_1_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vlr_2_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vlr_3_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vlr_4_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vsum_1_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vsum_2_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vsum_3_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="vsum_4_V_0_state_cmp_full">icmp, 0, 0, 8, 2, 1</column>
+<column name="ap_block_state2">or, 0, 0, 8, 1, 1</column>
+<column name="vbt_test_1_V_comp_s_fu_669_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vbt_test_2_V_comp_s_fu_735_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vbt_test_3_V_comp_s_fu_801_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vbt_test_4_V_comp_s_fu_867_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vlr_test_1_V_comp_s_fu_660_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vlr_test_2_V_comp_s_fu_727_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vlr_test_3_V_comp_s_fu_793_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vlr_test_4_V_comp_s_fu_859_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_1_V_1_comp_s_fu_651_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_2_V_1_comp_s_fu_719_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_2_V_2_Val2_s_fu_689_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_3_V_1_comp_s_fu_785_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_3_V_2_Val2_s_fu_755_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_4_V_1_comp_s_fu_851_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_i_4_V_2_Val2_s_fu_821_p3">select, 0, 0, 26, 1, 26</column>
+<column name="vsum_test_1_V_1_fu_621_p3">select, 0, 0, 26, 1, 26</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">53, 12, 1, 12</column>
+<column name="comp_11_V_new_1_reg_352">9, 2, 26, 52</column>
+<column name="comp_12_V_new_1_reg_407">9, 2, 26, 52</column>
+<column name="comp_13_V_new_1_reg_462">9, 2, 26, 52</column>
+<column name="comp_14_V_new_1_reg_517">9, 2, 26, 52</column>
+<column name="comp_21_V_new_1_reg_363">9, 2, 26, 52</column>
+<column name="comp_22_V_new_1_reg_418">9, 2, 26, 52</column>
+<column name="comp_23_V_new_1_reg_473">9, 2, 26, 52</column>
+<column name="comp_24_V_new_1_reg_528">9, 2, 26, 52</column>
+<column name="comp_31_V_new_1_reg_374">9, 2, 26, 52</column>
+<column name="comp_32_V_new_1_reg_429">9, 2, 26, 52</column>
+<column name="comp_33_V_new_1_reg_484">9, 2, 26, 52</column>
+<column name="comp_34_V_new_1_reg_539">9, 2, 26, 52</column>
+<column name="comp_vsum_1_V_flag_1_reg_330">9, 2, 1, 2</column>
+<column name="comp_vsum_1_V_new_1_reg_341">9, 2, 26, 52</column>
+<column name="comp_vsum_2_V_flag_1_reg_385">9, 2, 1, 2</column>
+<column name="comp_vsum_2_V_new_1_reg_396">9, 2, 26, 52</column>
+<column name="comp_vsum_3_V_flag_1_reg_440">9, 2, 1, 2</column>
+<column name="comp_vsum_3_V_new_1_reg_451">9, 2, 26, 52</column>
+<column name="comp_vsum_4_V_flag_1_reg_495">9, 2, 1, 2</column>
+<column name="comp_vsum_4_V_new_1_reg_506">9, 2, 26, 52</column>
+<column name="contador_new_reg_550">9, 2, 32, 64</column>
+<column name="i_reg_319">9, 2, 4, 8</column>
+<column name="out_peaks_V_1_data_out">9, 2, 32, 64</column>
+<column name="out_peaks_V_1_state">15, 3, 2, 6</column>
+<column name="out_peaks_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="peaks_V_address0">41, 8, 4, 32</column>
+<column name="peaks_V_address1">38, 7, 4, 28</column>
+<column name="peaks_V_d0">38, 7, 26, 182</column>
+<column name="peaks_V_d1">38, 7, 26, 182</column>
+<column name="vbt_1_V_0_data_out">9, 2, 32, 64</column>
+<column name="vbt_1_V_0_state">15, 3, 2, 6</column>
+<column name="vbt_1_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vbt_2_V_0_data_out">9, 2, 32, 64</column>
+<column name="vbt_2_V_0_state">15, 3, 2, 6</column>
+<column name="vbt_2_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vbt_3_V_0_data_out">9, 2, 32, 64</column>
+<column name="vbt_3_V_0_state">15, 3, 2, 6</column>
+<column name="vbt_3_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vbt_4_V_0_data_out">9, 2, 32, 64</column>
+<column name="vbt_4_V_0_state">15, 3, 2, 6</column>
+<column name="vbt_4_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vlr_1_V_0_data_out">9, 2, 32, 64</column>
+<column name="vlr_1_V_0_state">15, 3, 2, 6</column>
+<column name="vlr_1_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vlr_2_V_0_data_out">9, 2, 32, 64</column>
+<column name="vlr_2_V_0_state">15, 3, 2, 6</column>
+<column name="vlr_2_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vlr_3_V_0_data_out">9, 2, 32, 64</column>
+<column name="vlr_3_V_0_state">15, 3, 2, 6</column>
+<column name="vlr_3_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vlr_4_V_0_data_out">9, 2, 32, 64</column>
+<column name="vlr_4_V_0_state">15, 3, 2, 6</column>
+<column name="vlr_4_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vsum_1_V_0_data_out">9, 2, 32, 64</column>
+<column name="vsum_1_V_0_state">15, 3, 2, 6</column>
+<column name="vsum_1_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vsum_2_V_0_data_out">9, 2, 32, 64</column>
+<column name="vsum_2_V_0_state">15, 3, 2, 6</column>
+<column name="vsum_2_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vsum_3_V_0_data_out">9, 2, 32, 64</column>
+<column name="vsum_3_V_0_state">15, 3, 2, 6</column>
+<column name="vsum_3_V_TDATA_blk_n">9, 2, 1, 2</column>
+<column name="vsum_4_V_0_data_out">9, 2, 32, 64</column>
+<column name="vsum_4_V_0_state">15, 3, 2, 6</column>
+<column name="vsum_4_V_TDATA_blk_n">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">11, 0, 11, 0</column>
+<column name="comp_11_V">26, 0, 26, 0</column>
+<column name="comp_11_V_new_1_reg_352">26, 0, 26, 0</column>
+<column name="comp_12_V">26, 0, 26, 0</column>
+<column name="comp_12_V_new_1_reg_407">26, 0, 26, 0</column>
+<column name="comp_13_V">26, 0, 26, 0</column>
+<column name="comp_13_V_new_1_reg_462">26, 0, 26, 0</column>
+<column name="comp_14_V">26, 0, 26, 0</column>
+<column name="comp_14_V_new_1_reg_517">26, 0, 26, 0</column>
+<column name="comp_21_V">26, 0, 26, 0</column>
+<column name="comp_21_V_new_1_reg_363">26, 0, 26, 0</column>
+<column name="comp_22_V">26, 0, 26, 0</column>
+<column name="comp_22_V_new_1_reg_418">26, 0, 26, 0</column>
+<column name="comp_23_V">26, 0, 26, 0</column>
+<column name="comp_23_V_new_1_reg_473">26, 0, 26, 0</column>
+<column name="comp_24_V">26, 0, 26, 0</column>
+<column name="comp_24_V_new_1_reg_528">26, 0, 26, 0</column>
+<column name="comp_31_V">26, 0, 26, 0</column>
+<column name="comp_31_V_new_1_reg_374">26, 0, 26, 0</column>
+<column name="comp_32_V">26, 0, 26, 0</column>
+<column name="comp_32_V_new_1_reg_429">26, 0, 26, 0</column>
+<column name="comp_33_V">26, 0, 26, 0</column>
+<column name="comp_33_V_new_1_reg_484">26, 0, 26, 0</column>
+<column name="comp_34_V">26, 0, 26, 0</column>
+<column name="comp_34_V_new_1_reg_539">26, 0, 26, 0</column>
+<column name="comp_vsum_1_V">26, 0, 26, 0</column>
+<column name="comp_vsum_1_V_flag_1_reg_330">1, 0, 1, 0</column>
+<column name="comp_vsum_1_V_new_1_reg_341">26, 0, 26, 0</column>
+<column name="comp_vsum_2_V">26, 0, 26, 0</column>
+<column name="comp_vsum_2_V_flag_1_reg_385">1, 0, 1, 0</column>
+<column name="comp_vsum_2_V_new_1_reg_396">26, 0, 26, 0</column>
+<column name="comp_vsum_3_V">26, 0, 26, 0</column>
+<column name="comp_vsum_3_V_flag_1_reg_440">1, 0, 1, 0</column>
+<column name="comp_vsum_3_V_new_1_reg_451">26, 0, 26, 0</column>
+<column name="comp_vsum_4_V">26, 0, 26, 0</column>
+<column name="comp_vsum_4_V_flag_1_reg_495">1, 0, 1, 0</column>
+<column name="comp_vsum_4_V_new_1_reg_506">26, 0, 26, 0</column>
+<column name="contador">32, 0, 32, 0</column>
+<column name="contador_new_reg_550">32, 0, 32, 0</column>
+<column name="i_1_reg_1176">4, 0, 4, 0</column>
+<column name="i_reg_319">4, 0, 4, 0</column>
+<column name="out_peaks_V_1_payload_A">32, 0, 32, 0</column>
+<column name="out_peaks_V_1_payload_B">32, 0, 32, 0</column>
+<column name="out_peaks_V_1_sel_rd">1, 0, 1, 0</column>
+<column name="out_peaks_V_1_sel_wr">1, 0, 1, 0</column>
+<column name="out_peaks_V_1_state">2, 0, 2, 0</column>
+<column name="vbt_1_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vbt_1_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vbt_1_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vbt_1_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vbt_1_V_0_state">2, 0, 2, 0</column>
+<column name="vbt_2_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vbt_2_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vbt_2_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vbt_2_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vbt_2_V_0_state">2, 0, 2, 0</column>
+<column name="vbt_3_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vbt_3_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vbt_3_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vbt_3_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vbt_3_V_0_state">2, 0, 2, 0</column>
+<column name="vbt_4_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vbt_4_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vbt_4_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vbt_4_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vbt_4_V_0_state">2, 0, 2, 0</column>
+<column name="vbt_test_1_V_comp_s_reg_1085">26, 0, 26, 0</column>
+<column name="vbt_test_2_V_comp_s_reg_1110">26, 0, 26, 0</column>
+<column name="vbt_test_3_V_comp_s_reg_1135">26, 0, 26, 0</column>
+<column name="vbt_test_4_V_comp_s_reg_1160">26, 0, 26, 0</column>
+<column name="vlr_1_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vlr_1_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vlr_1_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vlr_1_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vlr_1_V_0_state">2, 0, 2, 0</column>
+<column name="vlr_2_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vlr_2_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vlr_2_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vlr_2_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vlr_2_V_0_state">2, 0, 2, 0</column>
+<column name="vlr_3_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vlr_3_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vlr_3_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vlr_3_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vlr_3_V_0_state">2, 0, 2, 0</column>
+<column name="vlr_4_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vlr_4_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vlr_4_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vlr_4_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vlr_4_V_0_state">2, 0, 2, 0</column>
+<column name="vlr_test_2_V_comp_s_reg_1105">26, 0, 26, 0</column>
+<column name="vlr_test_3_V_comp_s_reg_1130">26, 0, 26, 0</column>
+<column name="vlr_test_4_V_comp_s_reg_1155">26, 0, 26, 0</column>
+<column name="vsum_1_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vsum_1_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vsum_1_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vsum_1_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vsum_1_V_0_state">2, 0, 2, 0</column>
+<column name="vsum_2_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vsum_2_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vsum_2_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vsum_2_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vsum_2_V_0_state">2, 0, 2, 0</column>
+<column name="vsum_3_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vsum_3_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vsum_3_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vsum_3_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vsum_3_V_0_state">2, 0, 2, 0</column>
+<column name="vsum_4_V_0_payload_A">32, 0, 32, 0</column>
+<column name="vsum_4_V_0_payload_B">32, 0, 32, 0</column>
+<column name="vsum_4_V_0_sel_rd">1, 0, 1, 0</column>
+<column name="vsum_4_V_0_sel_wr">1, 0, 1, 0</column>
+<column name="vsum_4_V_0_state">2, 0, 2, 0</column>
+<column name="vsum_i_2_V_1_comp_s_reg_1100">26, 0, 26, 0</column>
+<column name="vsum_i_3_V_1_comp_s_reg_1125">26, 0, 26, 0</column>
+<column name="vsum_i_4_V_1_comp_s_reg_1150">26, 0, 26, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="s_axi_AXILiteS_AWVALID">in, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_AWREADY">out, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_AWADDR">in, 4, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_WVALID">in, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_WREADY">out, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_WDATA">in, 32, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_WSTRB">in, 4, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_ARVALID">in, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_ARREADY">out, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_ARADDR">in, 4, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_RVALID">out, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_RREADY">in, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_RDATA">out, 32, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_RRESP">out, 2, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_BVALID">out, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_BREADY">in, 1, s_axi, AXILiteS, return void</column>
+<column name="s_axi_AXILiteS_BRESP">out, 2, s_axi, AXILiteS, return void</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, max_det, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, max_det, return value</column>
+<column name="interrupt">out, 1, ap_ctrl_hs, max_det, return value</column>
+<column name="vsum_1_V_TDATA">in, 32, axis, vsum_1_V, pointer</column>
+<column name="vsum_1_V_TVALID">in, 1, axis, vsum_1_V, pointer</column>
+<column name="vsum_1_V_TREADY">out, 1, axis, vsum_1_V, pointer</column>
+<column name="vlr_1_V_TDATA">in, 32, axis, vlr_1_V, pointer</column>
+<column name="vlr_1_V_TVALID">in, 1, axis, vlr_1_V, pointer</column>
+<column name="vlr_1_V_TREADY">out, 1, axis, vlr_1_V, pointer</column>
+<column name="vbt_1_V_TDATA">in, 32, axis, vbt_1_V, pointer</column>
+<column name="vbt_1_V_TVALID">in, 1, axis, vbt_1_V, pointer</column>
+<column name="vbt_1_V_TREADY">out, 1, axis, vbt_1_V, pointer</column>
+<column name="out_peaks_V_TDATA">out, 32, axis, out_peaks_V, pointer</column>
+<column name="out_peaks_V_TVALID">out, 1, axis, out_peaks_V, pointer</column>
+<column name="out_peaks_V_TREADY">in, 1, axis, out_peaks_V, pointer</column>
+<column name="vsum_2_V_TDATA">in, 32, axis, vsum_2_V, pointer</column>
+<column name="vsum_2_V_TVALID">in, 1, axis, vsum_2_V, pointer</column>
+<column name="vsum_2_V_TREADY">out, 1, axis, vsum_2_V, pointer</column>
+<column name="vlr_2_V_TDATA">in, 32, axis, vlr_2_V, pointer</column>
+<column name="vlr_2_V_TVALID">in, 1, axis, vlr_2_V, pointer</column>
+<column name="vlr_2_V_TREADY">out, 1, axis, vlr_2_V, pointer</column>
+<column name="vbt_2_V_TDATA">in, 32, axis, vbt_2_V, pointer</column>
+<column name="vbt_2_V_TVALID">in, 1, axis, vbt_2_V, pointer</column>
+<column name="vbt_2_V_TREADY">out, 1, axis, vbt_2_V, pointer</column>
+<column name="vsum_3_V_TDATA">in, 32, axis, vsum_3_V, pointer</column>
+<column name="vsum_3_V_TVALID">in, 1, axis, vsum_3_V, pointer</column>
+<column name="vsum_3_V_TREADY">out, 1, axis, vsum_3_V, pointer</column>
+<column name="vlr_3_V_TDATA">in, 32, axis, vlr_3_V, pointer</column>
+<column name="vlr_3_V_TVALID">in, 1, axis, vlr_3_V, pointer</column>
+<column name="vlr_3_V_TREADY">out, 1, axis, vlr_3_V, pointer</column>
+<column name="vbt_3_V_TDATA">in, 32, axis, vbt_3_V, pointer</column>
+<column name="vbt_3_V_TVALID">in, 1, axis, vbt_3_V, pointer</column>
+<column name="vbt_3_V_TREADY">out, 1, axis, vbt_3_V, pointer</column>
+<column name="vsum_4_V_TDATA">in, 32, axis, vsum_4_V, pointer</column>
+<column name="vsum_4_V_TVALID">in, 1, axis, vsum_4_V, pointer</column>
+<column name="vsum_4_V_TREADY">out, 1, axis, vsum_4_V, pointer</column>
+<column name="vlr_4_V_TDATA">in, 32, axis, vlr_4_V, pointer</column>
+<column name="vlr_4_V_TVALID">in, 1, axis, vlr_4_V, pointer</column>
+<column name="vlr_4_V_TREADY">out, 1, axis, vlr_4_V, pointer</column>
+<column name="vbt_4_V_TDATA">in, 32, axis, vbt_4_V, pointer</column>
+<column name="vbt_4_V_TVALID">in, 1, axis, vbt_4_V, pointer</column>
+<column name="vbt_4_V_TREADY">out, 1, axis, vbt_4_V, pointer</column>
+</table>
+</item>
+</section>
+</profile>

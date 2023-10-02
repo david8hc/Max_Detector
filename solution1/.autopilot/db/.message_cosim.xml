@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message prefix="[COSIM 212-318]" severity="WARNING" keynum="COSIM_TCL_318_1190" content="Design path length is too long. If you encounter problems, please reduce path length." tag=""/>
+	<Message prefix="[COSIM 212-47]" severity="INFO" keynum="COSIM_TCL_47_1115" content="Using XSIM for RTL simulation." tag=""/>
+	<Message prefix="[COSIM 212-14]" severity="INFO" keynum="COSIM_TCL_14_1084" content="Instrumenting C test bench ..." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vsum_1_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vlr_1_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vbt_1_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vsum_2_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vlr_2_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vbt_2_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vsum_3_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vlr_3_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vbt_3_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vsum_4_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vlr_4_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-75]" severity="WARNING" keynum="COSIM_TCL_75_1137" content="Fifo port &apos;vbt_4_V&apos; has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in &apos;set_directive_interface&apos; using the option &apos;-depth&apos;." tag=""/>
+	<Message prefix="[COSIM 212-317]" severity="ERROR" keynum="COSIM_TCL_317_1189" content="C++ compile error." tag=""/>
+	<Message prefix="[COSIM 212-321]" severity="ERROR" keynum="COSIM_TCL_321_1193" content="EXE file generate failed." tag=""/>
+	<Message prefix="[COSIM 212-321]" severity="ERROR" keynum="COSIM_TCL_321_1193" content="EXE file generate failed." tag=""/>
+	<Message prefix="[COSIM 212-331]" severity="ERROR" keynum="COSIM_TCL_331_1203" content="Aborting co-simulation: C simulation failed, compilation errors." tag=""/>
+	<Message prefix="[COSIM 212-4]" severity="ERROR" keynum="COSIM_TCL_4_1074" content="*** C/RTL co-simulation finished: FAIL ***" tag=""/>
+	<Message prefix="[HLS 200-150]" severity="INFO" keynum="11" content="command &apos;ap_source&apos; returned error code
+    while executing
+&quot;source C:/Users/User/Documents/sistema_de_posicionamiento_REVISAR/Nueva_carpeta2/Early_Adopter-Pos_System/Miguel_source/HLS/Det_Max_v3/Max_Det/solutio...&quot;
+    invoked from within
+&quot;hls::main C:/Users/User/Documents/sistema_de_posicionamiento_REVISAR/Nueva_carpeta2/Early_Adopter-Pos_System/Miguel_source/HLS/Det_Max_v3/Max_Det/solu...&quot;
+    (&quot;uplevel&quot; body line 1)
+    invoked from within
+&quot;uplevel 1 hls::main {*}$args&quot;
+    (procedure &quot;hls_proc&quot; line 5)
+    invoked from within
+&quot;hls_proc $argv&quot;" tag=""/>
+</Messages>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="in_signal.h" path="C:\Users\User\Documents\sistema_de_posicionamiento_REVISAR\Nueva_carpeta2\Early_Adopter-Pos_System\Miguel_source\HLS\Det_Max_v3\Max_Det\in_signal.h"/>
+    <originFiles name="max_det.cpp" path="C:\Users\User\Documents\sistema_de_posicionamiento_REVISAR\Nueva_carpeta2\Early_Adopter-Pos_System\Miguel_source\HLS\Det_Max_v3\Max_Det\max_det.cpp"/>
+    <originFiles name="max_det.h" path="C:\Users\User\Documents\sistema_de_posicionamiento_REVISAR\Nueva_carpeta2\Early_Adopter-Pos_System\Miguel_source\HLS\Det_Max_v3\Max_Det\max_det.h"/>
+  </source>
+  <testbench>
+    <originFiles name="max_det_tb.cpp" path="C:\Users\User\Documents\sistema_de_posicionamiento_REVISAR\Nueva_carpeta2\Early_Adopter-Pos_System\Miguel_source\HLS\Det_Max_v3\Max_Det\max_det_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

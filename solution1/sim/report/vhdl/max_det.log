@@ -1,0 +1,24 @@
+WARNING: [COSIM-318] Design path length is too long. If you encounter problems, please reduce path length.
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+WARNING: [COSIM-75] Fifo port 'vsum_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vlr_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vbt_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vsum_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vlr_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vbt_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vsum_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vlr_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vbt_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vsum_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vlr_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+WARNING: [COSIM-75] Fifo port 'vbt_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.
+   Build using "C:/Xilinx/Vivado/2017.4/msys/bin/g++.exe"
+   Compiling apatb_max_det.cpp
+   Compiling max_det.cpp_pre.cpp.tb.cpp
+   Compiling max_det_tb.cpp_pre.cpp.tb.cpp
+ERROR: [COSIM-317] C++ compile error.
+ERROR: [COSIM-321] EXE file generate failed.
+ERROR: [COSIM-321] EXE file generate failed.
+ERROR: [COSIM-331] Aborting co-simulation: C simulation failed, compilation errors.
+ERROR: [COSIM-4] *** C/RTL co-simulation finished: FAIL ***

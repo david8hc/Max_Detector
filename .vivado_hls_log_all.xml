@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog>
+        <logs message="ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/User/Documents/sistema_de_posicionamiento_REVISAR/Nueva_carpeta2/Early_Adopter-Pos_System/Miguel_source/HLS/Det_Max_v3/Max_Det/solutio...&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/User/Documents/sistema_de_posicionamiento_REVISAR/Nueva_carpeta2/Early_Adopter-Pos_System/Miguel_source/HLS/Det_Max_v3/Max_Det/solu...&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.718+0200"/>
+        <logs message="ERROR: [COSIM 212-331] Aborting co-simulation: C simulation failed, compilation errors." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.552+0200"/>
+        <logs message="ERROR: [COSIM 212-321] EXE file generate failed." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.539+0200"/>
+        <logs message="ERROR: [COSIM 212-321] EXE file generate failed." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.525+0200"/>
+        <logs message="ERROR: [COSIM 212-317] C++ compile error." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.511+0200"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'contador' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.479+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_34_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.466+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_24_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.452+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_14_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.440+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_vsum_4_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.426+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_33_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.413+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_23_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.342+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_13_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.326+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_vsum_3_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.311+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_32_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.278+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_22_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.266+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_12_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.254+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_vsum_2_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.238+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_31_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.223+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_21_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.212+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_11_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.200+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'comp_vsum_1_V' is power-on initialization." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:47:29.188+0200" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vbt_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'.&#xD;&#xA;   Build using &quot;C:/Xilinx/Vivado/2017.4/msys/bin/g++.exe&quot;&#xD;&#xA;   Compiling apatb_max_det.cpp&#xD;&#xA;   Compiling max_det.cpp_pre.cpp.tb.cpp&#xD;&#xA;   Compiling max_det_tb.cpp_pre.cpp.tb.cpp&#xD;&#xA;In file included from C:/Xilinx/Vivado/2017.4/include/floating_point_v7_0_bitacc_cmodel.h:143:0,&#xD;&#xA;                 from C:/Xilinx/Vivado/2017.4/include/hls_fpo.h:172,&#xD;&#xA;                 from C:/Xilinx/Vivado/2017.4/include/hls_half.h:57,&#xD;&#xA;                 from C:/Xilinx/Vivado/2017.4/include/ap_int.h:74,&#xD;&#xA;                 from apatb_max_det.cpp:15:&#xD;&#xA;C:/Xilinx/Vivado/2017.4/include/gmp.h:62:0: warning: &quot;__GMP_LIBGMP_DLL&quot; redefined [enabled by default]&#xD;&#xA;C:/Xilinx/Vivado/2017.4/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition&#xD;&#xA;In file included from apatb_max_det.cpp:20:0:&#xD;&#xA;C:/Xilinx/Vivado/2017.4/include/ap_stream.h:70:2: warning: #warning AP_STREAM macros are deprecated. Please use hls::stream&lt;> from &quot;hls_stream.h&quot; instead. [-Wcpp]&#xD;&#xA;&#xD;&#xA;cc1plus.exe: out of memory allocating 65536 bytes&#xD;&#xA;make: *** [obj/max_det_tb.cpp_pre.cpp.tb.o] Error 1" projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:51.494+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vlr_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.345+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vsum_4_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.330+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vbt_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.320+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vlr_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.310+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vsum_3_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.299+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vbt_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.289+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vlr_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.277+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vsum_2_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.267+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vbt_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.256+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vlr_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.246+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-75] Fifo port 'vsum_1_V' has a default depth of 1. Insufficient depth may cause simulation mismatch or freeze. Please specify the depth in 'set_directive_interface' using the option '-depth'." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:38.237+0200" type="Warning"/>
+        <logs message="WARNING: [COSIM 212-318] Design path length is too long. If you encounter problems, please reduce path length." projectName="Max_Det" solutionName="solution1" date="2023-09-22T10:48:23.142+0200" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

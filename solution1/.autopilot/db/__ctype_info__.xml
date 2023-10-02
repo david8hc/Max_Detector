@@ -1,0 +1,133 @@
+<InterfaceSummary>
+<RtlPorts>
+<name>vsum_1_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vlr_1_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vbt_1_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>out_peaks_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vsum_2_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vlr_2_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vbt_2_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vsum_3_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vlr_3_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vbt_3_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vsum_4_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vlr_4_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>vbt_4_V</name>
+<CType>
+<TypeName>ap_fixed 26 26 2 3 0</TypeName>
+<TypeWidth>26</TypeWidth>
+<PhysicalWidth>32</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+</InterfaceSummary>
+

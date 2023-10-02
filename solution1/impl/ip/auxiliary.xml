@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="max_det" xd:componentRef="max_det" xd:initiationInterval="45" xd:clockPeriod="10.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_AXILiteS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="*(vsum_1)" xd:originalName="vsum_1" xd:direction="in" xd:interfaceRef="vsum_1_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vlr_1)" xd:originalName="vlr_1" xd:direction="in" xd:interfaceRef="vlr_1_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vbt_1)" xd:originalName="vbt_1" xd:direction="in" xd:interfaceRef="vbt_1_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(out_peaks)" xd:originalName="out_peaks" xd:direction="out" xd:interfaceRef="out_peaks_V" xd:busTypeRef="axis" xd:arraySize="9" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vsum_2)" xd:originalName="vsum_2" xd:direction="in" xd:interfaceRef="vsum_2_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vlr_2)" xd:originalName="vlr_2" xd:direction="in" xd:interfaceRef="vlr_2_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vbt_2)" xd:originalName="vbt_2" xd:direction="in" xd:interfaceRef="vbt_2_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vsum_3)" xd:originalName="vsum_3" xd:direction="in" xd:interfaceRef="vsum_3_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vlr_3)" xd:originalName="vlr_3" xd:direction="in" xd:interfaceRef="vlr_3_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vbt_3)" xd:originalName="vbt_3" xd:direction="in" xd:interfaceRef="vbt_3_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vsum_4)" xd:originalName="vsum_4" xd:direction="in" xd:interfaceRef="vsum_4_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vlr_4)" xd:originalName="vlr_4" xd:direction="in" xd:interfaceRef="vlr_4_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:arg xd:name="*(vbt_4)" xd:originalName="vbt_4" xd:direction="in" xd:interfaceRef="vbt_4_V" xd:busTypeRef="axis" xd:dataWidth="26"/>
+  <xd:latencyEstimates xd:best-case="2" xd:worst-case="44" xd:average-case="23"/>
+  <xd:resourceEstimates xd:LUT="1966" xd:FF="2099" xd:BRAM="2" xd:DSP="0"/>
+</xd:acceleratorMap>
